@@ -1,0 +1,12 @@
+1. git init (to creat empty repository)
+2. git clone (it will bring the remote repository for the first time to local work space(our system))
+3. git add filename (adding file to staging area, it moves the file from workspace to staging area, version of file will not be tracted)
+4. git status (it is used to check weather files are in work space OR in staging area OR in git repo)
+5. git commit -m "meassage" (used to move the file from staging area to git repository)(here commit id will be created)
+6. git push (git push url) (it is used to upload OR bring the changes from local repository content to a remote repository)
+7. git log (it is used to check history of the repository)
+8. git pull (git pull url) (it is used to bring the changes from remote repository & it will merges to local repository automatically)
+9. git revert commit-id (undo the commited changes in the previous commit but it does not delet history, we can track who has done the revert because every revert creat a new id we can track
+                         who has done the revert)
+10. git reset commit-id (it is used to reset previous commit , this will delete files from git repo staging area & also from work space , there will be no clue that you haave commited the
+                         changes because history will also deleted)
